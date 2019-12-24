@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ArticlesListComponent } from './main-page/articles-list/articles-list.component';
 import { ArticleComponent } from './main-page/articles-list/article/article.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { ArticleComponent } from './main-page/articles-list/article/article.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
