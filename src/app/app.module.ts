@@ -7,6 +7,8 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { ArticlesListComponent } from './main-page/articles-list/articles-list.component';
 import { ArticleComponent } from './main-page/articles-list/article/article.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import {MatCardModule} from '@angular/material/card';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

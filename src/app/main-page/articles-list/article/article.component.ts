@@ -9,7 +9,9 @@ export class ArticleComponent implements OnInit {
 
   @Input() title:string;
   @Input() author:string;
+  @Input() image:string;
   @Input() content:string;
+
 
 
   constructor() { }
